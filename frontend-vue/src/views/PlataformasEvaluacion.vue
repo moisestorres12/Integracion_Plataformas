@@ -19,7 +19,7 @@
                         <div v-for="i in plataformas" :key="id" class="col-12 md:col-6 xl:col-4 p-3">
                             <div class="surface-card shadow-2 border-rounded p-4">
                                 <div class="flex border-bottom-1 surface-border pb-4">
-                                    <Image v-bind:src="i.src" class="mr-3" style="width: 70px; height: 70px;"/>
+                                        <Image v-bind:src="i.src" class="mr-3" style="width: 70px; height: 70px;"/>
                                         <div class="flex flex-column align-items-start">
                                             <span class="text-lg text-900 font-medium mb-1">{{i.title}}</span>
                                             <span class="text-600 font-medium mb-2">-----</span>
